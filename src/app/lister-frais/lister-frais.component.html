@@ -1,0 +1,12 @@
+
+<p></p>
+<br><br>
+<div class="container">
+  <ul id="requetes Terminees">
+
+    @for (Frais of  this.getListeFrais() | async; track Frais.anneemois){
+    <li>{{ Frais.anneemois }} - {{ Frais.lib_etat }}</li>
+    }
+
+    </ul>
+</div>
