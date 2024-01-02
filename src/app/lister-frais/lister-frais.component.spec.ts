@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import {ListeFraisComponent} from "./lister-frais.component";
+import { FormsModule } from '@angular/forms';
 
 
 

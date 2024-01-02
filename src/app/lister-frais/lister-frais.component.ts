@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 import {GsbFraisService} from "../Models/GsbFraisService";
-import{CommonModule} from "@angular/common";
+import {AsyncPipe, CommonModule} from "@angular/common";
+import { FormsModule } from '@angular/forms';
+
 
 class BlogModule {}
 @Component({
   selector: 'app-lister-frais',
   standalone: true,
-  imports: [],
+  imports: [
+    AsyncPipe
+  ],
   templateUrl: './lister-frais.component.html',
   styleUrl: './lister-frais.component.css'
 })
